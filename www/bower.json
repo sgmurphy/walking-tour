@@ -1,0 +1,8 @@
+{
+  "name": "walking-tour",
+  "private": true,
+  "dependencies": {
+    "ember": "~1.7.0",
+    "ratchet": "~2.0.2"
+  }
+}
