@@ -1,0 +1,19 @@
+/* Sights List (home screen) */
+.table-view .media-object {
+	max-width: 42px;
+	max-height: 42px;
+}
+
+/* Sight media slider */
+#small-slider {
+	height: 300px;
+	background: #ededed;
+}
+#small-slider .slide {
+	text-align: center;
+	vertical-align: middle;
+}
+#small-slider .slide img {
+	max-width: 100%;
+	max-height: 100%;
+}
