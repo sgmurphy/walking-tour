@@ -63,9 +63,15 @@
 		<script type="text/javascript" src="cordova.js"></script>
 		<script type="text/javascript" src="bower_components/ratchet/dist/js/ratchet.min.js"></script>
 		<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="bower_components/fastclick/lib/fastclick.js"></script>
 		<script type="text/javascript" src="bower_components/handlebars/handlebars.min.js"></script>
 		<script type="text/javascript" src="bower_components/ember/ember.min.js"></script>
 		<script type="text/javascript" src="js/data.js"></script>
 		<script type="text/javascript" src="js/app.js"></script>
+		<script type="text/javascript">
+window.addEventListener('load', function() {
+		FastClick.attach(document.body);
+}, false);
+		</script>
 	</body>
 </html>
