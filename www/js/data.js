@@ -6,8 +6,15 @@ var sights = [
 		lat: 43.6799024,
 		lng: -70.2610889,
 		description: "This is a description.",
-		photos: [
-			"img/photo-1.jpg"
+		media: [
+			{
+				isVideo: true,
+				url: "video/big-buck-bunny.m4v",
+				thumbnail: "http://placehold.it/600x400&text=video"
+			},
+			{
+				url: "img/photo-1.jpg"
+			}
 		]
 	},
 	{
@@ -17,10 +24,16 @@ var sights = [
 		lat: 43.6799024,
 		lng: -70.2610889,
 		description: "This is a longer description of stuff.",
-		photos: [
-			"img/photo-2.jpg",
-			"img/photo-3.jpg",
-			"img/photo-4.jpg"
+		media: [
+			{
+				url: "img/photo-2.jpg"
+			},
+			{
+				url: "img/photo-3.jpg"
+			},
+			{
+				url: "img/photo-4.jpg"
+			}
 		]
 	},
 	{
@@ -30,10 +43,16 @@ var sights = [
 		lat: 43.6799024,
 		lng: -70.2610889,
 		description: "This is a description of the place you could visit and have a great time you will remember for many days into the indefinite future and reminisce with fondness about the extraordinary experiences you've enjoyed in your life and the happiness it brings you when remembering that time you went that place and did that thing--this thing--and so you should do it and go there and experience the experiences that will last a lifetime.",
-		photos: [
-			"img/photo-3.jpg",
-			"img/photo-4.jpg",
-			"img/photo-5.jpg"
+		media: [
+			{
+				url: "img/photo-3.jpg"
+			},
+			{
+				url: "img/photo-4.jpg"
+			},
+			{
+				url: "img/photo-5.jpg"
+			}
 		]
 	}
 ];
